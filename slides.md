@@ -2,19 +2,20 @@
 % giacomo
 % @@DATE@@
 
-# Your awesome slides
+## Ma soprattuto, perché?
 
-* See [pandoc reference](http://pandoc.org/MANUAL.html) for the markdown that's supported
-* use `git submodule foreach git pull` to update [reveal.js](http://lab.hakim.se/reveal-js/#/)
-* Or, use the make target `make update_reveal`
+* Non è una question di soldi
+* Non è (solo) una questione di privacy
+* Piu una questione di controllo
 
 ---
 
-## helpers
+## Disclaimer
 
-* git hook: see `README.md` (will auto-release on commit!)
-* watch/rebuild dev on changes: [bin/rebuild](bin/rebuild)
-* serve the files via web server: `make serve`
+* Un approccio molto ibrido tra il funzionale e il privato
+* Sopratutto molto opinionato (ovviamente)
+* Prendete spunto con il vostro twist
+
 
 
 ---
