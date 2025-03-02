@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if git st | grep "slides\." -q; then
+    make release || exit 1
+    git add slides.html
+fi
