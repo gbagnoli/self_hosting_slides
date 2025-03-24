@@ -2,15 +2,20 @@
 % giacomo
 % @@DATE@@
 
-## Ma soprattuto, perché?
+# Ma soprattuto, perché?
 
-* Non è una question di soldi
-* Non è (solo) una questione di privacy
-* Piu una questione di controllo
+* Non è una question di soldi, ne (solo) di privacy
+* Sostanzialmente una questione di controllo
+* ⤵
+
+## Goals and non-goals
+
+* yadda yadda
+* bla bla
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 * Un approccio molto ibrido tra il funzionale e il privato
 * Sopratutto molto opinionato (ovviamente)
