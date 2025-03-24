@@ -1,8 +1,11 @@
 SHELL := /bin/bash
 all: develop
-theme = beige
+theme = sky
 
-cmd = pandoc --css reveal.js/dist/theme/$(theme).css --css slides.css -s -i -t revealjs slides-generated.md -V transition:none -V theme:$(theme) -o
+cmd = pandoc --css reveal.js/dist/theme/$(theme).css --css slides.css \
+				-s -i -t revealjs \
+				-V transition:none -V theme:$(theme) -V revealjs-url:reveal.js \
+				slides-generated.md -o
 
 clean:
 	@rm -rf slides-dev.html slides-generated.md
@@ -22,8 +25,9 @@ release: sub
 	@rm -f slides-generated.md
 
 update_reveal:
+	git submodule init
 	git submodule sync
-	git submodule foreach git pull
+	git submodule update
 
 bin/static-web-server:
 	@echo "Downloaded the last release of static-web-server"
