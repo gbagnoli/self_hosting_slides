@@ -4,6 +4,7 @@ theme = sky
 cmd = pandoc --css reveal.js/dist/theme/$(theme).css --css slides.css \
 				-s -i -t revealjs --slide-level=2\
 				-V theme:$(theme) -V revealjs-url:reveal.js \
+				-V slideNumber:true \
 				slides-generated.md -o
 
 clean:
