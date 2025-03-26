@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-all: develop
+all: watch
 theme = sky
 cmd = pandoc --css reveal.js/dist/theme/$(theme).css --css slides.css \
 				-s -i -t revealjs --slide-level=2\
