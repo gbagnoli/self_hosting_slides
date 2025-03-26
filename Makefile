@@ -29,12 +29,14 @@ update_reveal:
 	git submodule sync
 	git submodule update
 
-bin/static-web-server:
-	@echo "Downloaded the last release of static-web-server"
-	$(shell curl -sL https://api.github.com/repos/static-web-server/static-web-server/releases | jq -r '.[0].assets[] | select(.name | contains("x86_64-unknown-linux-gnu")) | .browser_download_url' | xargs curl -sL | tar -C bin/ --wildcards -xzf - '*/static-web-server' --strip-components=1)
+download_server:
+	FORCE_DOWNLOAD=true NO_SERVE=true ./bin/serve
 
-serve: bin/static-web-server
-	bin/static-web-server -p 3333 -d .
+serve:
+	./bin/serve -d . -p 3333
+
+watch:
+	./bin/rebuild -s
 
 serve_on_calculon:
 	ssh -t -t calculon -L 3333:localhost:3333 "cd ~/workspace/self_hosting_slides && make serve"
