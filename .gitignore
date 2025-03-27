@@ -1,3 +1,4 @@
 dist
 slides-dev.html
 bin/static-web-server
+.DS_Store
