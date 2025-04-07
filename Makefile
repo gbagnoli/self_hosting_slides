@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 all: watch
-theme = sky
+theme = solarized
 cmd = pandoc --css reveal.js/dist/theme/$(theme).css --css slides.css \
 				-s -i -t revealjs --slide-level=2\
 				-V theme:$(theme) -V revealjs-url:reveal.js \
