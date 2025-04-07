@@ -42,6 +42,8 @@ odio i backup
 
 # Setup
 
+# Setup
+
 ![](images/network.png){ width=60% }
 
 > * Non un sistema distribuito multi nodo
@@ -70,7 +72,7 @@ odio i backup
 rocky era l'unica opzione del provider
 :::
 
-# Setup
+# Networking
 
 # Networking
 
@@ -85,6 +87,8 @@ rocky era l'unica opzione del provider
 ::: notes
 c'e` anche un range per tailscale ovviamente
 :::
+
+# The main tech
 
 # The main tech
 
@@ -265,18 +269,6 @@ $ sudo podman ps | grep nginx
 * 🕰️ `https://github.com/digint/btrbk` per andare indietro nel tempo
 * 🛠️ infrastructure as code `https://github.com/gbagnoli/devmachine`
 
-
-# Apps
-
-> * files (syncthing) 🏠 rpi, ☁️ server
-> * passwords (keepass) 🏠, ☁️ , 💻
-> * vpn (tailscale) 🏠, ☁️ , 💻
-> * vpn infra (headscale) ☁️
-> * DNS resolvers (pihole) 🏠, ☁️
-> * unifi controller 🏠
-> * \*arr 🤫 - ☁️
-> * IRC client (thelounge) ☁️
-
 # Web auth
 
 * SSL everywhere using ACME + DNS auth
@@ -292,6 +284,19 @@ $ sudo podman ps | grep nginx
 ::: notes
 :::
 
+# Cosa hosto?
+
+# Apps
+
+* files (syncthing) 🏠 rpi, ☁️ server
+* passwords (keepass) 🏠, ☁️ , 💻
+* vpn (tailscale) 🏠, ☁️ , 💻
+* vpn infra (headscale) ☁️
+* DNS resolvers (pihole) 🏠, ☁️
+* unifi controller 🏠
+* \*arr 🤫 - ☁️
+* IRC client (thelounge) ☁️
+
 # Cosa non-hosto
 
 * DNS pubblico (cloudflare)
@@ -300,5 +305,3 @@ $ sudo podman ps | grep nginx
 
 ::: notes
 :::
-
-# Have fun!

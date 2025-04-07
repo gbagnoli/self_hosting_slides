@@ -23,6 +23,11 @@ develop: sub
 release: sub
 	$(cmd) slides.html --embed-resources --standalone
 	@rm -f slides-generated.md
+	git add slides.html
+	git commit -m 'automated release commit' slides.html
+
+publish: release
+	scp slides.html calculon:/var/lib/data/www/vhosts/www.tigc.eu/self_hosting.html
 
 update_reveal:
 	git submodule init
