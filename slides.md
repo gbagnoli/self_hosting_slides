@@ -15,13 +15,22 @@ ognuno lo fa al livello che si sente
 # Disclaimer:
 
 * Praticità vs privacy
-* Opinionato
+* Yours truly - è molto opinionato
 
 ::: notes
 Sicuramente il mio non è un approccio "puro"
 sicuramente vi deluderò 😆 ↓
 L'idea e offrire un esempio e spunti
 :::
+
+## side-track
+
+* GOLEM (~2000->2007)
+* Suse 6.3 / slackaware 4->8 (1999-2000)
+* varie distro (mandrake, debian) (2000-2002)
+* gentoo (2002 -> 2012)
+* ubuntu (2013 -> 2022)
+* Universal Blue (2022+)
 
 # Goals
 
@@ -305,3 +314,7 @@ $ sudo podman ps | grep nginx
 
 ::: notes
 :::
+
+# FIN
+
+Grazie!
