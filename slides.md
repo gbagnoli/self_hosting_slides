@@ -291,7 +291,16 @@ $ sudo podman ps | grep nginx
 ![](images/auth.svg)
 
 ::: notes
+oauth2 proxy support un sacco di provider
+* gitea/github/gitlab
+* google / linkedin / facebook
+* Keycloak / OpenID
+* Microsoft / DigitalOcean/NextCloud
 :::
+
+
+# LIVE DEMO
+
 
 # Cosa hosto?
 
