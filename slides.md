@@ -4,8 +4,8 @@
 
 # Ma soprattuto, perché?
 
-> * Non è una questione di soldi 💸, ne di privacy 🥸
-> * Sostanzialmente una questione di controllo
+* Non è una questione di soldi 💸, ne di privacy 🥸
+* Sostanzialmente una questione di controllo
 
 ::: notes
 un po' anche un hobby
@@ -15,7 +15,7 @@ ognuno lo fa al livello che si sente
 # Disclaimer:
 
 * Praticità vs privacy
-* Yours truly - è molto opinionato
+* il mio approccio è molto opinionato
 
 ::: notes
 Sicuramente il mio non è un approccio "puro"
@@ -23,7 +23,7 @@ sicuramente vi deluderò 😆 ↓
 L'idea e offrire un esempio e spunti
 :::
 
-## side-track
+## Yours Truly
 
 * GOLEM (~2000->2007)
 * Suse 6.3 / slackaware 4->8 (1999-2000)
