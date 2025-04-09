@@ -1,6 +1,6 @@
 % Self Hosting in 2025: A practical approach
 % giacomo
-% @@DATE@@
+% 2025-04-08
 
 # Ma soprattuto, perché?
 
@@ -22,15 +22,6 @@ Sicuramente il mio non è un approccio "puro"
 sicuramente vi deluderò 😆 ↓
 L'idea e offrire un esempio e spunti
 :::
-
-## Yours Truly
-
-* GOLEM (~2000->2007)
-* Suse 6.3 / slackaware 4->8 (1999-2000)
-* varie distro (mandrake, debian) (2000-2002)
-* gentoo (2002 -> 2012)
-* ubuntu (2013 -> 2022)
-* Universal Blue (2022+)
 
 # Goals
 
